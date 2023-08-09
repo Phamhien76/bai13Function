@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT5</title>
+</head>
+
+<body>
+    <script>
+        //5. Viết function chuẩn hóa một từ - chỉ viết hoa chữ cái đầu tiên. 
+        //Ví dụ: “rIkKEi” sau khi chuẩn hóa thành “Rikkei”
+        function chuanHoa() {
+            let str = prompt("Hãy nhập một ký tự");
+            let first = str.slice(0, 1).toUpperCase();
+            let second = str.slice(1).toLowerCase();
+            let gop = first + second;
+            console.log(gop);
+        }
+        chuanHoa();
+
+    </script>
+</body>
+
+</html>
